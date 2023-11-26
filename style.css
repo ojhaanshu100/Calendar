@@ -1,0 +1,132 @@
+*{margin: 0;
+padding: 0;
+font-family: sans-serif;
+transition: 0.5s ease;
+font-weight: bold;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right,rgb(150, 180, 236),rgb(57, 120, 120));
+}
+table{
+    width: 80vw;
+    height: 70vh;
+    padding: 20px;
+}
+th{
+    width: 10vw;
+    text-align: center;
+    padding: 6px;
+}
+td{
+    width: 10vw;
+    height: 8vh;    
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+table{
+    border-spacing:1vw;
+    border-radius: 3px;
+    background-color: rgb(175, 255, 96);
+    border-radius: 9px;
+    height: 2vh;
+    margin: 2vh  auto 5vh auto;
+    
+}
+.day{
+    border-radius: 9px;
+    height: 35px;
+    background-color:rgb(142, 225, 64) ;
+
+}
+td:hover{
+    background-color: rgb(151, 244, 58);
+}
+header{
+    margin-right: 5px;
+    width: 80vw;
+    display: flex; 
+    height: 11vh;  
+    justify-content: start;
+    align-content: center;
+}
+h3{
+    margin-left: 1vw;
+    margin-right: 4vw;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    font-weight: 1000;
+    color: rgb(255, 255, 255);
+}
+.inactive{
+    opacity: 50%;
+}
+button{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 28px;
+    font-weight: 1000;
+    
+    border-radius: 50%;
+    opacity: 80%;
+    background-color: transparent;
+    border-color: transparent;
+    text-align: center;
+}
+button:hover{
+    background-color: rgb(151, 244, 58);
+}
+
+
+.interval{
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    
+}
+.current{
+    background: rgb(124, 198, 50);
+    font-size: 30px;
+}
+.current-date{
+    font-size: 36px;
+    padding-left: 0px;
+    color: rgb(255, 255, 255);
+}
+.week{
+    margin-left: 0vw;
+    display: flex;
+    justify-content: space-between;
+}
+.head{
+    border-bottom: 2px solid rgb(74, 147, 1);
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-style: oblique;
+    text-decoration-line: none;
+    background: rgb(175, 255, 96);
+    padding: 15px 20px;
+   
+    height: 25px;
+    margin: auto;
+    border-radius: 5px;
+    transition: 0.5s ease;
+    font-weight: bold;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+    background:rgb(72, 141, 3);
+}

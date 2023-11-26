@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Calendar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="logo.png" rel="icon">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <h3 class="current-date"></h3>
+            
+            <a href="weekly.html" id="MonthlyView">Weekly View</a>
+            <button class="button" id="prev"><</button>
+            <button class="button" id="next">></button>
+        </header>
+        <table>
+            <thead>
+                <th class = "day">Sun</th>
+                <th class = "day">Mon</th>
+                <th class = "day">Tue</th>
+                <th class = "day">Wed</th>
+                <th class = "day">Thu</th>
+                <th class = "day">Fri</th>
+                <th class = "day">Sat</th>
+            </thead>
+            <tbody class="days">
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

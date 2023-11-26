@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="logo.png" rel="icon">
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="week">
+            <h3 class="current-date"></h3>
+            <a href="index.html" id = "MonthlyView">Monthly View</a>
+            <button class="button" id="prev_week"><</button>
+            <button class="button" id="next_week">></button>
+            <h3 class="currtime"></h3>
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+                <tr class="days"></tr>
+
+            </thead>
+            <tbody class="time"></tbody>
+    </div>
+    <script src="script_weekly.js"></script>
+</body>
+
+</html>
